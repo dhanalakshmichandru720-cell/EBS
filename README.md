@@ -105,4 +105,16 @@ ls /mnt/data-store2/
 ```
 file.txt
 ```
+<img width="1917" height="1078" alt="Screenshot 2026-11-18 150539" src="https://github.com/user-attachments/assets/199a4387-8f4a-4915-a549-250216afdecf" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-18 150723" src="https://github.com/user-attachments/assets/628dae91-2ed5-471a-80e5-44f9d4c13f50" />
+<img width="1908" height="1071" alt="Screenshot 2026-11-18 150847" src="https://github.com/user-attachments/assets/7ae75009-e6fb-4efd-a243-4aca538fa2dc" />
  
+<img width="1912" height="1078" alt="Screenshot 2026-11-18 151148" src="https://github.com/user-attachments/assets/a8e6caac-704d-40a5-a44a-53e23451ba59" />
+<img width="1917" height="1075" alt="Screenshot 2026-11-18 151202" src="https://github.com/user-attachments/assets/9abbde08-21a5-4fa2-8d08-673ca4539f40" />
+<img width="1917" height="1067" alt="Screenshot 2026-11-18 151819" src="https://github.com/user-attachments/assets/38a37a7b-8064-400e-b622-ca7d7ef42939" />
+<img width="1485" height="185" alt="Screenshot 2026-11-18 151844" src="https://github.com/user-attachments/assets/c858300f-7a6e-41f6-a4a9-e508418008f9" />
+<img width="1917" height="1075" alt="Screenshot 2026-11-18 152131" src="https://github.com/user-attachments/assets/39f927bc-67a2-467c-873a-99c299cb222f" />
+<img width="1917" height="1073" alt="Screenshot 2026-11-18 152301" src="https://github.com/user-attachments/assets/1ed07a45-a77a-405c-9ec6-88763f735e9e" />
+<img width="1917" height="1078" alt="Screenshot 2026-11-18 152619" src="https://github.com/user-attachments/assets/428cedc0-5ddd-46cf-b662-e169fac4919e" />
+<img width="1917" height="1072" alt="Screenshot 2026-11-18 152802" src="https://github.com/user-attachments/assets/61f34dd9-b15f-48c2-8716-53e6e95f5f3b" />
+<img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/f8c7c4ad-96aa-4364-96b7-bfeeeee728be" />
