@@ -7,24 +7,43 @@ To create and configure an Amazon Elastic Block Store (EBS) volume, attach and m
 
 ## Algorithm / Steps
 Create a new Amazon EBS volume with a size of 1 GiB.
+
 Select the same Availability Zone as the EC2 instance.
+
 Attach the EBS volume to the EC2 instance using /dev/sdb.
+
 Connect to the EC2 instance using AWS Systems Manager Session Manager.
+
 Check the available storage using df -h.
+
 Create an ext3 file system on the EBS volume.
+
 Create the /mnt/data-store directory.
+
 Mount the EBS volume to /mnt/data-store.
+
 Configure /etc/fstab for automatic mounting.
+
 Verify that the EBS volume is successfully mounted.
+
 Create file.txt inside the mounted EBS volume.
+
 Verify the contents of the created file.
+
 Create an EBS snapshot named My Snapshot.
+
 Delete file.txt from the original EBS volume.
+
 Create a new EBS volume from the snapshot.
+
 Attach the restored volume to the EC2 instance using /dev/sdc.
+
 Create the /mnt/data-store2 directory.
+
 Mount the restored volume to /mnt/data-store2.
+
 Verify that file.txt has been successfully restored.
+
 ## Program
 1. Check Available Storage
 df -h
