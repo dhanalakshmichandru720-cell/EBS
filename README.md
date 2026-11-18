@@ -45,33 +45,64 @@ Mount the restored volume to /mnt/data-store2.
 Verify that file.txt has been successfully restored.
 
 ## Program
-1. Check Available Storage
+## 1. Check Available Storage
+```
 df -h
-2. Create an ext3 File System
+```
+## 2. Create an ext3 File System
+```
 sudo mkfs -t ext3 /dev/sdb
-3. Create a Mount Directory
+```
+## 3. Create a Mount Directory
+```
 sudo mkdir /mnt/data-store
-4. Mount the EBS Volume
+```
+## 4. Mount the EBS Volume
+```
 sudo mount /dev/sdb /mnt/data-store
-5. Configure Automatic Mounting
+```
+## 5. Configure Automatic Mounting
+```
 echo "/dev/sdb   /mnt/data-store ext3 defaults,noatime 1 2" | sudo tee -a /etc/fstab
-6. View the File System Configuration
+```
+## 6. View the File System Configuration
+```
 cat /etc/fstab
-7. Verify the Mounted Volume
+```
+## 7. Verify the Mounted Volume
+```
 df -h
-8. Create a File in the EBS Volume
+```
+## 8. Create a File in the EBS Volume
+```
 sudo sh -c "echo some text has been written > /mnt/data-store/file.txt"
-9. Read the File
+```
+## 9. Read the File
+```
 cat /mnt/data-store/file.txt
-10. Delete the File
+```
+## 10. Delete the File
+```
 sudo rm /mnt/data-store/file.txt
-11. Verify File Deletion
+```
+## 11. Verify File Deletion
+```
 ls /mnt/data-store/
-12. Create a Mount Directory for the Restored Volume
+```
+## 12. Create a Mount Directory for the Restored Volume
+```
 sudo mkdir /mnt/data-store2
-13. Mount the Restored EBS Volume
+```
+## 13. Mount the Restored EBS Volume
+```
 sudo mount /dev/sdc /mnt/data-store2
-14. Verify Snapshot Restoration
+```
+## 14. Verify Snapshot Restoration
+```
 ls /mnt/data-store2/
-Expected output:
+```
+## Expected output:
+```
+file.txt
+```
  
