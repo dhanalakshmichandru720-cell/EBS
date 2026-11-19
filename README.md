@@ -118,5 +118,6 @@ file.txt
 <img width="1917" height="1078" alt="Screenshot 2026-11-18 152619" src="https://github.com/user-attachments/assets/428cedc0-5ddd-46cf-b662-e169fac4919e" />
 <img width="1917" height="1072" alt="Screenshot 2026-11-18 152802" src="https://github.com/user-attachments/assets/61f34dd9-b15f-48c2-8716-53e6e95f5f3b" />
 <img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/f8c7c4ad-96aa-4364-96b7-bfeeeee728be" />
+
 ## Result
 Thus, an Amazon EBS volume was successfully created, attached and mounted to an EC2 instance. A snapshot backup was created and restored to a new EBS volume.
